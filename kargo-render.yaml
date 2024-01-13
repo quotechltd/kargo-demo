@@ -1,0 +1,12 @@
+configVersion: v1alpha1
+branchConfigs:
+- pattern: env/(\w+)
+  appConfigs:
+    foo:
+      configManagement:
+        path: env/${1}/foo
+      outputPath: foo
+    bar:
+      configManagement:
+        path: env/${1}/bar
+      outputPath: bar
