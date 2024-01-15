@@ -1,1 +1,3 @@
-{}
+imageSubstitutions:
+- nginx:1.25.3
+sourceCommit: c7fbcb4aa1485dfbe913d7901bfa94d62f1fb250
