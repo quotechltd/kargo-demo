@@ -14,5 +14,5 @@ patches:
       path: /spec/rules/0/host
       value: kargo-demo.staging.quotech.company
     - op: replace
-      path: /spec/tls/0/hosts/0/-
+      path: /spec/tls/0/hosts/0
       value: kargo-demo.staging.quotech.company
