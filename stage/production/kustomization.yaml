@@ -5,6 +5,8 @@ resources:
 - ../../base
 - configmap.yaml
 
+namespace: production
+
 patches:
 - target:
     kind: Ingress

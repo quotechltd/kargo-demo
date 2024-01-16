@@ -5,6 +5,8 @@ resources:
 - ../../base
 - configmap.yaml
 
+namespace: staging
+
 patches:
 - target:
     kind: Ingress
