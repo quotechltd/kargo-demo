@@ -4,7 +4,7 @@ metadata:
   name: kargo-demo
   namespace: staging
 spec:
-  ingressClassName: traefik
+  ingressClassName: nginx
   rules:
   - host: kargo-demo.staging.quotech.company
     http:
