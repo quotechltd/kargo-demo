@@ -2,8 +2,9 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: kargo-demo
+  namespace: production
 spec:
-  ingressClassName: traefik
+  ingressClassName: nginx
   rules:
   - host: kargo-demo.production.quotech.company
     http:
