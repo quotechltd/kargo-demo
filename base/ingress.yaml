@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: kargo-demo
 spec:
-  ingressClassName: traefik
+  ingressClassName: nginx
   rules:
   - host: kargo-demo.<placeholder>.quotech.company
     http:
